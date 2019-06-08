@@ -19,6 +19,8 @@ make_combos(upper_limit = 550, lower_limit = 450, prices_csv = '/home/wwfelina/D
 ```
 This will make a file called combos.csv in the working directory with all the combos. 
 
+upper_limit and lower_limit is the maximum and minimum cost of a combo
+
 LowerBound and UpperBound are the minimum and maximum number of items in a combo. If UpperBound and LowerBound are not declared explicitly,they'll take default values of 2 and 3 respectively.
 
 Also, the complexity of the program is of the order n^UpperBound so Upperbound must be chosen appropriately.
